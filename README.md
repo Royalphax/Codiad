@@ -1,3 +1,7 @@
+### This fork is absolutly not official and my only goal is to allow the great Codiad web IDE to work on my PHP 8 instance. I know there are other alternatives with more security, functionality, etc. But codiad already fits my needs and works great, so why change ? This repo is for anyone looking for a PHP 8.0 compatible version of codiad. If you encounter any errors or problems, please fix it by yourself and make a pull request (I will accept them).
+
+<hr/>
+
 # Codiad Web IDE
 
 Codiad is a web-based IDE framework with a small footprint and minimal requirements. 
