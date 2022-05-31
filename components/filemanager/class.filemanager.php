@@ -87,11 +87,11 @@ class Filemanager extends Common
 
         foreach (array('content', 'mtime', 'patch') as $key) {
             if (!empty($post[$key])) {
-                if (get_magic_quotes_gpc()) {
-                    $this->$key = stripslashes($post[$key]);
-                } else {
-                    $this->$key = $post[$key];
-                }
+                //if (get_magic_quotes_gpc()) {
+                //    $this->$key = stripslashes($post[$key]);
+                //} else {
+                $this->$key = $post[$key];
+                //}
             }
         }
         // Duplicate
